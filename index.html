@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <!-- Vertical Navigation Bar (Fixed Left) -->
+            <nav
+              class="navbar navbar-expand-lg navbar-light bg-light fixed-left">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav flex-column">
+                  <li class="nav-item active">
+                    <a class="navbar-brand" href="#">Sudhanva</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-11">
+            <!-- About Section -->
+            <section id="about" class="py-5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h2>About Me</h2>
+                    <p>Add a brief introduction about yourself here.</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img
+                      id="profile"
+                      src="profile.png"
+                      alt="Profile Picture"
+                      class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Portfolio Section -->
+            <section id="portfolio" class="py-5 bg-light">
+              <div class="container">
+                <h2 class="text-center">Portfolio</h2>
+                <div class="row">
+                  <!-- Your portfolio items go here -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                      <img
+                        src="Smriti-tech.png"
+                        class="card-img-top"
+                        alt="Project 1" />
+                      <div class="card-body">
+                        <h5 class="card-title">Smriti Tech</h5>
+                        <p class="card-text">A complete website for a</p>
+                        <a
+                          href="https://1sudhanva.github.io/Smriti-tech/"
+                          class="btn btn-primary"
+                          >View Project</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Add more portfolio items as needed -->
+                </div>
+              </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="py-5">
+              <div class="container">
+                <h2 class="text-center">Contact Me</h2>
+                <div class="row">
+                  <div class="col-md-6 mx-auto"></div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

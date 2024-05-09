@@ -1,0 +1,25 @@
+/* Custom CSS for Vertical Navigation Bar */
+.navbar.fixed-left {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.navbar-brand {
+  margin-bottom: 20px;
+}
+
+.navbar.fixed-left .navbar-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar.fixed-left .navbar-nav .nav-item {
+  margin-bottom: 10px;
+}
+
+.navbar.fixed-left .navbar-nav .nav-link {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
