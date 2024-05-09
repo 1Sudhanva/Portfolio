@@ -12,13 +12,12 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <section id="about" class="py-5">
-      <div class="container">
+    <section id="main" class="">
+      <div class="container-fluid">
         <div class="row">
-          <div class="col">
+          <div class="col-2">
             <!-- Vertical Navigation Bar (Fixed Left) -->
-            <nav
-              class="navbar navbar-expand-lg navbar-light bg-light fixed-left">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-left">
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav flex-column">
                   <li class="nav-item active">
@@ -37,19 +36,19 @@
               </div>
             </nav>
           </div>
-          <div class="col-11">
+          <div class="col-10">
             <!-- About Section -->
             <section id="about" class="py-5">
               <div class="container">
                 <div class="row">
-                  <div class="col-lg-6">
+                  <div class="col-lg-8">
                     <h2>About Me</h2>
                     <p>Add a brief introduction about yourself here.</p>
                   </div>
-                  <div class="col-lg-6">
+                  <div class="col-lg-4">
                     <img
                       id="profile"
-                      src="profile.png"
+                      src="images/profile.png"
                       alt="Profile Picture"
                       class="img-fluid" />
                   </div>
@@ -58,22 +57,60 @@
             </section>
 
             <!-- Portfolio Section -->
-            <section id="portfolio" class="py-5 bg-light">
+            <section id="portfolio" class="py-1">
               <div class="container">
                 <h2 class="text-center">Portfolio</h2>
                 <div class="row">
                   <!-- Your portfolio items go here -->
-                  <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card">
                       <img
-                        src="Smriti-tech.png"
+                        src="images/Smriti-tech.png"
                         class="card-img-top"
                         alt="Project 1" />
                       <div class="card-body">
                         <h5 class="card-title">Smriti Tech</h5>
-                        <p class="card-text">A complete website for a</p>
+                        <p class="card-text">
+                          A full fledged website for a start-up
+                        </p>
                         <a
                           href="https://1sudhanva.github.io/Smriti-tech/"
+                          class="btn btn-primary"
+                          >View Project</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card">
+                      <img
+                        src="images/Job-portal.png"
+                        class="card-img-top"
+                        alt="Project 2" />
+                      <div class="card-body">
+                        <h5 class="card-title">Job Portal</h5>
+                        <p class="card-text">A intership project</p>
+                        <a
+                          href="https://1sudhanva.github.io/Job-Portal/"
+                          class="btn btn-primary"
+                          >View Project</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="card">
+                      <img
+                        src="images/krishi.png"
+                        class="card-img-top"
+                        alt="Project 3" />
+                      <div class="card-body">
+                        <h5 class="card-title">Krishi</h5>
+                        <p class="card-text">
+                          A farmer app developed in flutter
+                        </p>
+                        <a
+                          href="https://github.com/1Sudhanva/krishi"
                           class="btn btn-primary"
                           >View Project</a
                         >
@@ -86,11 +123,17 @@
             </section>
 
             <!-- Contact Section -->
-            <section id="contact" class="py-5">
+            <section id="contact" class="py-5 bg-dark text-light">
               <div class="container">
                 <h2 class="text-center">Contact Me</h2>
                 <div class="row">
-                  <div class="col-md-6 mx-auto"></div>
+                  <div class="col-md-6 mx-auto">
+                    <a
+                      href="https://www.linkedin.com/in/sudhanva-282-/"
+                      target="_blank"
+                      >Visit my LinkedIn profile</a
+                    >
+                  </div>
                 </div>
               </div>
             </section>
