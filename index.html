@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sudhanva's portfolio website showcasing projects and contact information." />
+    <meta name="keywords" content="Sudhanva, portfolio, projects, contact" />
     <title>Your Portfolio</title>
     <!-- Bootstrap CSS -->
     <link
@@ -12,17 +16,14 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <section id="main" class="">
+    <section id="main">
       <div class="container-fluid">
         <div class="row">
           <div class="col-2">
             <!-- Vertical Navigation Bar (Fixed Left) -->
-            <nav class="navbar navbar-expand-lg navbar-light fixed-left">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-left">
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav flex-column">
-                  <li class="nav-item active">
-                    <a class="navbar-brand" href="#">Sudhanva</a>
-                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
                   </li>
@@ -42,14 +43,14 @@
               <div class="container">
                 <div class="row">
                   <div class="col-lg-8">
-                    <h2>About Me</h2>
+                    <h1>Sudhanva</h1>
                     <p>Add a brief introduction about yourself here.</p>
                   </div>
                   <div class="col-lg-4">
                     <img
                       id="profile"
                       src="Images/profile.png"
-                      alt="Profile Picture"
+                      alt="Sudhanva's profile picture"
                       class="img-fluid" />
                   </div>
                 </div>
@@ -100,10 +101,6 @@
                   </div>
                   <div class="col-lg-6 col-md-6 mb-4">
                     <div class="card">
-                      <img
-                        src="Images/krishi.png"
-                        class="card-img-top"
-                        alt="Project 3" />
                       <div class="card-body">
                         <h5 class="card-title">Krishi</h5>
                         <p class="card-text">
@@ -127,12 +124,13 @@
               <div class="container">
                 <h2 class="text-center">Contact Me</h2>
                 <div class="row">
-                  <div class="col-md-6 mx-auto">
+                  <div class="col mx-auto">
                     <a
                       href="https://www.linkedin.com/in/sudhanva-282-/"
                       target="_blank"
-                      >Visit my LinkedIn profile</a
-                    >
+                      class="external-link">
+                      Visit my LinkedIn profile
+                    </a>
                   </div>
                 </div>
               </div>
@@ -146,5 +144,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
